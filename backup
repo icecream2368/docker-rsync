@@ -1,0 +1,3 @@
+#!/bin/sh
+
+rsync -au --delete ${DATA_DIR} ${BACKUP_DIR}
